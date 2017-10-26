@@ -1,0 +1,78 @@
+{
+	"id": "fc584adb-0911-b886-169d-8159f4f05033",
+	"name": "SPRING_REST_SIMPLE_EXAMPLE",
+	"description": "",
+	"order": [
+		"e097b629-23bf-1080-264b-cb4c6624c444",
+		"a1751ddf-f103-c857-ecbe-fdd4f451c2af"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1509009738172,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "a1751ddf-f103-c857-ecbe-fdd4f451c2af",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:1711/resources/motorcycles",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fc584adb-0911-b886-169d-8159f4f05033",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Motorcycles Resource Endpoint",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1509009774581,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \r\n    \"name\": \"Business Analysts 2\",\r\n    \"creationDate\": \"2017-10-22T10:11:55.093Z\"\r\n  }"
+		},
+		{
+			"id": "e097b629-23bf-1080-264b-cb4c6624c444",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "localhost:1711/resources/hello",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "fc584adb-0911-b886-169d-8159f4f05033",
+			"data": [],
+			"dataMode": "raw",
+			"name": "Hello Resource Endpoint",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1509009750700,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\r\n    \r\n    \"name\": \"Business Analysts 2\",\r\n    \"creationDate\": \"2017-10-22T10:11:55.093Z\"\r\n  }"
+		}
+	]
+}
